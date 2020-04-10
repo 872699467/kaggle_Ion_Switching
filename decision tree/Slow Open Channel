@@ -1,0 +1,9 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="signal <= -1.938\nsamples = 1000000\nvalue = [964796, 35204]\nclass = 0", fillcolor="#e68640"] ;
+1 [label="samples = 965282\nvalue = [964010, 1272]\nclass = 0", fillcolor="#e58139"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="samples = 34718\nvalue = [786, 33932]\nclass = 1", fillcolor="#3e9fe6"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}

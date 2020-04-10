@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="signal <= 3.68\nsamples = 1000000\nvalue = [2, 126, 1087, 6939, 29982, 91701, 188112, 265015\n245183, 136120, 35733]\nclass = 7", fillcolor="#fbfafe"] ;
+1 [label="signal <= 2.41\nsamples = 580504\nvalue = [2, 126, 1087, 6939, 29982, 91701, 188110, 244475\n18082, 0, 0]\nclass = 7", fillcolor="#e8e3fb"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+3 [label="signal <= 1.127\nsamples = 317587\nvalue = [2, 126, 1087, 6939, 29982, 91700, 171067, 16684, 0\n0, 0]\nclass = 6", fillcolor="#b9ccf6"] ;
+1 -> 3 ;
+7 [label="signal <= -0.148\nsamples = 129231\nvalue = [2, 126, 1087, 6939, 29982, 81480, 9613, 2, 0, 0, 0]\nclass = 5", fillcolor="#98e6f2"] ;
+3 -> 7 ;
+11 [label="signal <= -1.446\nsamples = 38049\nvalue = [2, 126, 1087, 6939, 26058, 3837, 0, 0, 0, 0, 0]\nclass = 4", fillcolor="#85efc3"] ;
+7 -> 11 ;
+13 [label="samples = 7921\nvalue = [2, 126, 1087, 5850, 856, 0, 0, 0, 0, 0, 0]\nclass = 3", fillcolor="#75ed7b"] ;
+11 -> 13 ;
+14 [label="samples = 30128\nvalue = [0, 0, 0, 1089, 25202, 3837, 0, 0, 0, 0, 0]\nclass = 4", fillcolor="#5eeaaf"] ;
+11 -> 14 ;
+12 [label="samples = 91182\nvalue = [0, 0, 0, 0, 3924, 77643, 9613, 2, 0, 0, 0]\nclass = 5", fillcolor="#5ad6e9"] ;
+7 -> 12 ;
+8 [label="samples = 188356\nvalue = [0, 0, 0, 0, 0, 10220, 161454, 16682, 0, 0, 0]\nclass = 6", fillcolor="#5886e9"] ;
+3 -> 8 ;
+4 [label="samples = 262917\nvalue = [0, 0, 0, 0, 0, 1, 17043, 227791, 18082, 0, 0]\nclass = 7", fillcolor="#7855e9"] ;
+1 -> 4 ;
+2 [label="signal <= 5.006\nsamples = 419496\nvalue = [0, 0, 0, 0, 0, 0, 2, 20540, 227101, 136120, 35733]\nclass = 8", fillcolor="#eabff7"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+5 [label="samples = 249455\nvalue = [0, 0, 0, 0, 0, 0, 2, 20540, 214567, 14344, 2]\nclass = 8", fillcolor="#c757e9"] ;
+2 -> 5 ;
+6 [label="signal <= 6.332\nsamples = 170041\nvalue = [0, 0, 0, 0, 0, 0, 0, 0, 12534, 121776, 35731]\nclass = 9", fillcolor="#ee80cb"] ;
+2 -> 6 ;
+9 [label="samples = 135459\nvalue = [0, 0, 0, 0, 0, 0, 0, 0, 12534, 117426, 5499]\nclass = 9", fillcolor="#e956ba"] ;
+6 -> 9 ;
+10 [label="samples = 34582\nvalue = [0, 0, 0, 0, 0, 0, 0, 0, 0, 4350, 30232]\nclass = 10", fillcolor="#e95569"] ;
+6 -> 10 ;
+}
