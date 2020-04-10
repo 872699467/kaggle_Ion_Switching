@@ -1,2 +1,2 @@
 # kaggle_Ion_Switching
-kaggle competation
+kaggle competation：https://www.kaggle.com/c/liverpool-ion-switching/submissions
